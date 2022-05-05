@@ -147,3 +147,4 @@ let chichiperalta = sprites.create(img`
     ........................
     `, SpriteKind.Player)
 controller.moveSprite(chichiperalta)
+info.changeScoreBy(1)
