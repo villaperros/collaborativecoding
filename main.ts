@@ -149,4 +149,6 @@ let chichiperalta = sprites.create(img`
 controller.moveSprite(chichiperalta)
 info.setLife(3)
 info.changeScoreBy(1)
-music.playMelody("C - D - E - F G ", 120)
+forever(function () {
+    music.playMelody("C - D - E - F G ", 120)
+})
